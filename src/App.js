@@ -49,13 +49,13 @@ const NormalView = props => {
 
     return (
         <div>
-            <p>出来事：{props.data.content}</p>
-            <p>ラッキーアイテム：{props.data.item}</p>
-            <p>ラッキーカラー：{props.data.color}</p>
-            <p>金運：{props.data.money}</p>
-            <p>仕事運：{props.data.job}</p>
-            <p>恋愛運：{props.data.love}</p>
-            <p>ランキング：今日のあなたの順位は{props.data.rank}位</p>
+            <font size='4'><p>出来事：{props.data.content}</p></font>
+            <font size='4'><p>ラッキーアイテム：{props.data.item}</p></font>
+            <font size='4'><p>ラッキーカラー：{props.data.color}</p></font>
+            <font size='4'><p>金運：{props.data.money}</p></font>
+            <font size='4'><p>仕事運：{props.data.job}</p></font>
+            <font size='4'><p>恋愛運：{props.data.love}</p></font>
+            <font size='5'><p>ランキング：今日のあなたの順位は<font color='red'>{props.data.rank}</font>位</p></font>
         </div>
     )
 }
